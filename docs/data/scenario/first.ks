@@ -1,46 +1,63 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ライブに行くかバイトするあゆたん"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「ライブに行くかバイトするあゆたん」[l][r]
 
-メロスは激怒した。[l][r]
+あゆたんは悩んだ。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+ライブに行きたいがお金がない。[l][r]
 
 (中略)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+ああ、悩ましい。私は、どうしてもライブに行きたい。[l][r]
+推しのかっこいい姿が見たい。しかし金欠だ。。。[l][r]
+あゆたんは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_bad] →バイトする [endlink][r]
+[link target=*tag_live] →ライブに応募する [endlink][r]
 [s]
 
-*tag_sleep
+*tag_bad
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage= time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+あゆたんは落胆した。[l][r]
+推しのかっこいい音楽が聞けなかったことに。[l][r]
+働いて忘れることにした。 [r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_live
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+あゆたんはライブに応募した。[l][r]
+さあ、当たれ。すべての運を使い果たしてでも [l][r]
+
+[link target=*tag_good] →当選する [endlink][r]
+[link target=*tag_bad] →落選する　[endlink][r]
+[s]
+
+*tag_good
+
+[cm]
+
+[bg storage= time=500]
+
+あゆたんは全力でライブを楽しんだ。 [l][r]
+一種忘れられない思い出なっただろう。　[l][r]
+
 
 【 GOOD END 】[l][cm]
 
 [jump target=*start]
+
+
