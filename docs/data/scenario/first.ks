@@ -25,7 +25,7 @@
 
 [cm]
 
-[bg storage= time=500]
+[bg storage=kaisya_woman_bad.png time=500]
 
 あゆたんは落胆した。[l][r]
 推しのかっこいい音楽が聞けなかったことに。[l][r]
@@ -50,7 +50,7 @@
 
 [cm]
 
-[bg storage= time=500]
+[bg storage=live_music.png time=500]
 
 あゆたんは全力でライブを楽しんだ。 [l][r]
 一種忘れられない思い出なっただろう。　[l][r]
